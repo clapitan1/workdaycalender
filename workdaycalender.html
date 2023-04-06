@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Daily Planner</title>
+        <link rel="stylesheet" href="wdc.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Daily Planner</h1>
+            <h2 id="currentDay"></h2>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row time-block">
+                    <div class="col-md-1 hour">9am</div>
+                    <textarea class="col-md-10 description past"></textarea>
+                    <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+                </div>
+                <div class="row time-block">
+                    <div class="col-md-1 hour">10am</div>
+                    <textarea class="col-md-10 description past"></textarea>
+                    <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+                </div>
+            </div>
+        </main>
+        <script src="wdc.js"></script>
+    </body>
+</html>
